@@ -1,0 +1,4 @@
+[console_scripts]
+imu_subscriber = my_test.test_imu_sub_node:main
+servo_pwm_publisher = my_test.test_pwm_pub_node:main
+

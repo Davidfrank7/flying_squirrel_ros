@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/my_test/my_test.egg-info
+writing ../../build/my_test/my_test.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_test/my_test.egg-info/dependency_links.txt
+writing entry points to ../../build/my_test/my_test.egg-info/entry_points.txt
+writing requirements to ../../build/my_test/my_test.egg-info/requires.txt
+writing top-level names to ../../build/my_test/my_test.egg-info/top_level.txt
+writing manifest file '../../build/my_test/my_test.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_test/my_test.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_test/my_test.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/flying/Documents/flying_squirrel_ros/build/my_test/build
+creating /home/flying/Documents/flying_squirrel_ros/build/my_test/build/lib
+creating /home/flying/Documents/flying_squirrel_ros/build/my_test/build/lib/my_test
+copying my_test/test_pwm_pub_node.py -> /home/flying/Documents/flying_squirrel_ros/build/my_test/build/lib/my_test
+copying my_test/__init__.py -> /home/flying/Documents/flying_squirrel_ros/build/my_test/build/lib/my_test
+copying my_test/test_subscribe_node.py -> /home/flying/Documents/flying_squirrel_ros/build/my_test/build/lib/my_test
+running install
+running install_lib
+creating /home/flying/Documents/flying_squirrel_ros/install/my_test/lib/python3.10/site-packages/my_test
+copying /home/flying/Documents/flying_squirrel_ros/build/my_test/build/lib/my_test/test_pwm_pub_node.py -> /home/flying/Documents/flying_squirrel_ros/install/my_test/lib/python3.10/site-packages/my_test
+copying /home/flying/Documents/flying_squirrel_ros/build/my_test/build/lib/my_test/__init__.py -> /home/flying/Documents/flying_squirrel_ros/install/my_test/lib/python3.10/site-packages/my_test
+copying /home/flying/Documents/flying_squirrel_ros/build/my_test/build/lib/my_test/test_subscribe_node.py -> /home/flying/Documents/flying_squirrel_ros/install/my_test/lib/python3.10/site-packages/my_test
+byte-compiling /home/flying/Documents/flying_squirrel_ros/install/my_test/lib/python3.10/site-packages/my_test/test_pwm_pub_node.py to test_pwm_pub_node.cpython-310.pyc
+byte-compiling /home/flying/Documents/flying_squirrel_ros/install/my_test/lib/python3.10/site-packages/my_test/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/flying/Documents/flying_squirrel_ros/install/my_test/lib/python3.10/site-packages/my_test/test_subscribe_node.py to test_subscribe_node.cpython-310.pyc
+running install_data
+creating /home/flying/Documents/flying_squirrel_ros/install/my_test/share/ament_index
+creating /home/flying/Documents/flying_squirrel_ros/install/my_test/share/ament_index/resource_index
+creating /home/flying/Documents/flying_squirrel_ros/install/my_test/share/ament_index/resource_index/packages
+copying resource/my_test -> /home/flying/Documents/flying_squirrel_ros/install/my_test/share/ament_index/resource_index/packages
+copying package.xml -> /home/flying/Documents/flying_squirrel_ros/install/my_test/share/my_test
+running install_egg_info
+Copying ../../build/my_test/my_test.egg-info to /home/flying/Documents/flying_squirrel_ros/install/my_test/lib/python3.10/site-packages/my_test-0.0.0-py3.10.egg-info
+running install_scripts
+Installing imu_subscriber script to /home/flying/Documents/flying_squirrel_ros/install/my_test/lib/my_test
+Installing servo_pwm_publisher script to /home/flying/Documents/flying_squirrel_ros/install/my_test/lib/my_test
+writing list of installed files to '/home/flying/Documents/flying_squirrel_ros/build/my_test/install.log'

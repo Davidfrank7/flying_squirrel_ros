@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from flying_robot_interfaces/msg/ServoPWMState.msg
+// generated code does not contain a copyright notice
+
+
+module flying_robot_interfaces {
+  module msg {
+    struct ServoPWMState {
+      sequence<int32> id;
+
+      sequence<int32> pwm;
+    };
+  };
+};

@@ -1,0 +1,44 @@
+[1.033s] Invoking command in '/home/flying/Documents/flying_squirrel_ros/src/flying_robot_control': CONDA_PROMPT_MODIFIER=(ros2) PYTHONPATH=/home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/prefix_override:/home/flying/miniconda3/envs/ros2/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/lib/python3.10/site-packages:${PYTHONPATH} /home/flying/miniconda3/envs/ros2/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/flying_robot_control build --build-base /home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/build install --record /home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/install.log --single-version-externally-managed install_data
+[1.281s] running egg_info
+[1.281s] creating ../../build/flying_robot_control/flying_robot_control.egg-info
+[1.285s] writing ../../build/flying_robot_control/flying_robot_control.egg-info/PKG-INFO
+[1.285s] writing dependency_links to ../../build/flying_robot_control/flying_robot_control.egg-info/dependency_links.txt
+[1.285s] writing entry points to ../../build/flying_robot_control/flying_robot_control.egg-info/entry_points.txt
+[1.285s] writing requirements to ../../build/flying_robot_control/flying_robot_control.egg-info/requires.txt
+[1.285s] writing top-level names to ../../build/flying_robot_control/flying_robot_control.egg-info/top_level.txt
+[1.285s] writing manifest file '../../build/flying_robot_control/flying_robot_control.egg-info/SOURCES.txt'
+[1.285s] reading manifest file '../../build/flying_robot_control/flying_robot_control.egg-info/SOURCES.txt'
+[1.285s] writing manifest file '../../build/flying_robot_control/flying_robot_control.egg-info/SOURCES.txt'
+[1.285s] running build
+[1.286s] running build_py
+[1.286s] creating /home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/build
+[1.286s] creating /home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/build/lib
+[1.286s] creating /home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/build/lib/flying_robot_control
+[1.286s] copying flying_robot_control/flying_hardware_sdk.py -> /home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/build/lib/flying_robot_control
+[1.286s] copying flying_robot_control/flying_att_control_node.py -> /home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/build/lib/flying_robot_control
+[1.286s] copying flying_robot_control/__init__.py -> /home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/build/lib/flying_robot_control
+[1.286s] copying flying_robot_control/flying_hardware_node.py -> /home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/build/lib/flying_robot_control
+[1.286s] running install
+[1.286s] running install_lib
+[1.286s] creating /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/lib/python3.10/site-packages/flying_robot_control
+[1.286s] copying /home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/build/lib/flying_robot_control/flying_hardware_sdk.py -> /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/lib/python3.10/site-packages/flying_robot_control
+[1.286s] copying /home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/build/lib/flying_robot_control/flying_att_control_node.py -> /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/lib/python3.10/site-packages/flying_robot_control
+[1.287s] copying /home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/build/lib/flying_robot_control/__init__.py -> /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/lib/python3.10/site-packages/flying_robot_control
+[1.287s] copying /home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/build/lib/flying_robot_control/flying_hardware_node.py -> /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/lib/python3.10/site-packages/flying_robot_control
+[1.287s] byte-compiling /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/lib/python3.10/site-packages/flying_robot_control/flying_hardware_sdk.py to flying_hardware_sdk.cpython-310.pyc
+[1.292s] byte-compiling /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/lib/python3.10/site-packages/flying_robot_control/flying_att_control_node.py to flying_att_control_node.cpython-310.pyc
+[1.293s] byte-compiling /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/lib/python3.10/site-packages/flying_robot_control/__init__.py to __init__.cpython-310.pyc
+[1.293s] byte-compiling /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/lib/python3.10/site-packages/flying_robot_control/flying_hardware_node.py to flying_hardware_node.cpython-310.pyc
+[1.294s] running install_data
+[1.294s] creating /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/share/ament_index
+[1.294s] creating /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/share/ament_index/resource_index
+[1.294s] creating /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/share/ament_index/resource_index/packages
+[1.294s] copying resource/flying_robot_control -> /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/share/ament_index/resource_index/packages
+[1.294s] copying package.xml -> /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/share/flying_robot_control
+[1.295s] running install_egg_info
+[1.296s] Copying ../../build/flying_robot_control/flying_robot_control.egg-info to /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/lib/python3.10/site-packages/flying_robot_control-0.0.0-py3.10.egg-info
+[1.297s] running install_scripts
+[1.324s] Installing flying_control_node script to /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/lib/flying_robot_control
+[1.324s] Installing flying_hardware_node script to /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/lib/flying_robot_control
+[1.324s] writing list of installed files to '/home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/install.log'
+[1.387s] Invoked command in '/home/flying/Documents/flying_squirrel_ros/src/flying_robot_control' returned '0': CONDA_PROMPT_MODIFIER=(ros2) PYTHONPATH=/home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/prefix_override:/home/flying/miniconda3/envs/ros2/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/lib/python3.10/site-packages:${PYTHONPATH} /home/flying/miniconda3/envs/ros2/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/flying_robot_control build --build-base /home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/build install --record /home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/install.log --single-version-externally-managed install_data

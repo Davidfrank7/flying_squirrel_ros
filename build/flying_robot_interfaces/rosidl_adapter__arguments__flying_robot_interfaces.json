@@ -1,0 +1,6 @@
+{
+  "package_name": "flying_robot_interfaces",
+  "non_idl_tuples": [
+    "/home/flying/Documents/flying_squirrel_ros/src/flying_robot_interfaces:msg/ServoPWMState.msg"
+  ]
+}

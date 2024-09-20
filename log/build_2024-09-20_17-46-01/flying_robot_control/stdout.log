@@ -1,0 +1,42 @@
+running egg_info
+creating ../../build/flying_robot_control/flying_robot_control.egg-info
+writing ../../build/flying_robot_control/flying_robot_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/flying_robot_control/flying_robot_control.egg-info/dependency_links.txt
+writing entry points to ../../build/flying_robot_control/flying_robot_control.egg-info/entry_points.txt
+writing requirements to ../../build/flying_robot_control/flying_robot_control.egg-info/requires.txt
+writing top-level names to ../../build/flying_robot_control/flying_robot_control.egg-info/top_level.txt
+writing manifest file '../../build/flying_robot_control/flying_robot_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/flying_robot_control/flying_robot_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/flying_robot_control/flying_robot_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/build
+creating /home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/build/lib
+creating /home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/build/lib/flying_robot_control
+copying flying_robot_control/flying_hardware_sdk.py -> /home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/build/lib/flying_robot_control
+copying flying_robot_control/flying_att_control_node.py -> /home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/build/lib/flying_robot_control
+copying flying_robot_control/__init__.py -> /home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/build/lib/flying_robot_control
+copying flying_robot_control/flying_hardware_node.py -> /home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/build/lib/flying_robot_control
+running install
+running install_lib
+creating /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/lib/python3.10/site-packages/flying_robot_control
+copying /home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/build/lib/flying_robot_control/flying_hardware_sdk.py -> /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/lib/python3.10/site-packages/flying_robot_control
+copying /home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/build/lib/flying_robot_control/flying_att_control_node.py -> /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/lib/python3.10/site-packages/flying_robot_control
+copying /home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/build/lib/flying_robot_control/__init__.py -> /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/lib/python3.10/site-packages/flying_robot_control
+copying /home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/build/lib/flying_robot_control/flying_hardware_node.py -> /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/lib/python3.10/site-packages/flying_robot_control
+byte-compiling /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/lib/python3.10/site-packages/flying_robot_control/flying_hardware_sdk.py to flying_hardware_sdk.cpython-310.pyc
+byte-compiling /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/lib/python3.10/site-packages/flying_robot_control/flying_att_control_node.py to flying_att_control_node.cpython-310.pyc
+byte-compiling /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/lib/python3.10/site-packages/flying_robot_control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/lib/python3.10/site-packages/flying_robot_control/flying_hardware_node.py to flying_hardware_node.cpython-310.pyc
+running install_data
+creating /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/share/ament_index
+creating /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/share/ament_index/resource_index
+creating /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/share/ament_index/resource_index/packages
+copying resource/flying_robot_control -> /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/share/flying_robot_control
+running install_egg_info
+Copying ../../build/flying_robot_control/flying_robot_control.egg-info to /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/lib/python3.10/site-packages/flying_robot_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing flying_control_node script to /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/lib/flying_robot_control
+Installing flying_hardware_node script to /home/flying/Documents/flying_squirrel_ros/install/flying_robot_control/lib/flying_robot_control
+writing list of installed files to '/home/flying/Documents/flying_squirrel_ros/build/flying_robot_control/install.log'

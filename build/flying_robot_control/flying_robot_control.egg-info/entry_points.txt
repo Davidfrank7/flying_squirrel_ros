@@ -1,0 +1,4 @@
+[console_scripts]
+flying_control_node = test_py.flying_control_node:main
+flying_hardware_node = test_py.flying_hardware_node:main
+
