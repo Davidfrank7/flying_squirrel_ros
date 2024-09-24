@@ -1,0 +1,21 @@
+# ROS2 specific
+install/
+log/
+build/
+
+# Python specific
+__pycache__/
+*.py[cod]
+*.so
+
+# CMake specific
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Other
+*.swp
+*.bak
+*.tmp
+*.DS_Store
