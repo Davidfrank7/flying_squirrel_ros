@@ -6,7 +6,7 @@ from rclpy.node import Node
 from sensor_msgs.msg import Imu
 from std_msgs.msg import Float32MultiArray
 import struct
-from test_py.flying_hardware_sdk import Board
+from flying_robot_control.flying_hardware_sdk import Board
 from flying_robot_interfaces.msg import ServoPWMState   
 import time
 
@@ -30,7 +30,8 @@ class FlyingHardwareNode(Node):
     def publish_imu_data(self):
         # [从串口获取IMU数据]
         imu_data = self.board.get_imu()
-        print(imu_data)
+        # print(imu_data)
+        self.get_logger().debug(f'IMU data: {imu_data}')
 
         if imu_data:
             imu_msg = Imu()
@@ -59,7 +60,8 @@ class FlyingHardwareNode(Node):
         #print([[msg.id[0],msg.pwm[0]], [msg.id[1],msg.pwm[1]], [msg.id[2],msg.pwm[2]]]) 
         self.board.pwm_servo_set_position(0.5,[[msg.id[0],msg.pwm[0]], [msg.id[1],msg.pwm[1]], [msg.id[2],msg.pwm[2]]])
         self.board.pwm_servo_set_offset(msg.id[0], 0) 
-        print(f"Received PWM data: {pwm_data}")
+        # print(f"Received PWM data: {pwm_data}")
+        self.get_logger().info(f"Received PWM data: {pwm_data}")
 
 
 def main(args=None):

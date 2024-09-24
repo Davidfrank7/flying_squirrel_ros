@@ -21,7 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'servo_pwm_publisher = my_test.test_pwm_pub_node:main',
-            'imu_subscriber = my_test.test_imu_sub_node:main',
+            'test_imu_node = my_test.test_imu_node:main',
         ],
     },
 )

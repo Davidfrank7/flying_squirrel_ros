@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'flying_hardware_node = test_py.flying_hardware_node:main',
-            'flying_control_node = test_py.flying_control_node:main',
+            'flying_hardware_node = flying_robot_control.flying_hardware_node:main',
+            'flying_control_node = flying_robot_control.flying_control_node:main',
         ],
     },
 )

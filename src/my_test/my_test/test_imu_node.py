@@ -6,12 +6,12 @@ from sensor_msgs.msg import Imu
 
 class IMUSubscriber(Node):
     def __init__(self):
-        super().__init__('imu_subscriber')
+        super().__init__('test_imu_node')
         
         # 创建订阅者，订阅 'imu_raw' 话题
         self.subscription = self.create_subscription(
             Imu,
-            'imu/data', 
+            'imu/data_raw', 
             self.imu_callback,
             10)
         
@@ -20,7 +20,7 @@ class IMUSubscriber(Node):
     def imu_callback(self, msg):
         # 当收到IMU消息时回调此函数
         self.get_logger().info('Received IMU Data:')
-        self.get_logger().info(f'Orientation: x={msg.orientation.x}, y={msg.orientation.y}, z={msg.orientation.z}, w={msg.orientation.w}')
+        # self.get_logger().info(f'Orientation: x={msg.orientation.x}, y={msg.orientation.y}, z={msg.orientation.z}, w={msg.orientation.w}')
         self.get_logger().info(f'Angular velocity: x={msg.angular_velocity.x}, y={msg.angular_velocity.y}, z={msg.angular_velocity.z}')
         self.get_logger().info(f'Linear acceleration: x={msg.linear_acceleration.x}, y={msg.linear_acceleration.y}, z={msg.linear_acceleration.z}')
 
