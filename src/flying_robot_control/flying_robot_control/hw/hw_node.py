@@ -6,14 +6,15 @@ from rclpy.node import Node
 from sensor_msgs.msg import Imu
 from std_msgs.msg import Float32MultiArray
 import struct
-from flying_robot_control.flying_hardware_sdk import Board
+from flying_robot_control.hw.hw_sdk import Board
 from flying_robot_interfaces.msg import ServoPWMState   
 import time
 
+import numpy as np
 
 class FlyingHardwareNode(Node):
     def __init__(self):
-        super().__init__('flying_hardware_node')
+        super().__init__('hw_node')
         
         # 初始化发布器和接收器
         self.imu_publisher = self.create_publisher(Imu, '/imu/data_raw', 10)
@@ -44,9 +45,10 @@ class FlyingHardwareNode(Node):
             imu_msg.linear_acceleration.y = imu_data[1]
             imu_msg.linear_acceleration.z = imu_data[2]
 
-            imu_msg.angular_velocity.x = imu_data[3]
-            imu_msg.angular_velocity.y = imu_data[4]
-            imu_msg.angular_velocity.z = imu_data[5]
+            # 将角速度转换为弧度制
+            imu_msg.angular_velocity.x = np.radians(imu_data[3])
+            imu_msg.angular_velocity.y = np.radians(imu_data[4])
+            imu_msg.angular_velocity.z = np.radians(imu_data[5])
  
             # 发布IMU数据
             self.imu_publisher.publish(imu_msg)

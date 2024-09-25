@@ -6,7 +6,7 @@ from flying_robot_interfaces.msg import ServoPWMState
 class FlyingAttControlNode:  # 类名需要和调用时保持一致
     def __init__(self):
         # 创建ROS 2节点
-        self.node = rclpy.create_node('flying_att_control_node')
+        self.node = rclpy.create_node('att_ctrl_node')
 
         # 初始化存储IMU处理结果的属性
         self.imu_data = None
