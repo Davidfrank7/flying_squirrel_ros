@@ -22,6 +22,7 @@ plotjuggler
 
 
 unset GTK_PATH
+export QT_QPA_PLATFORM=xcb
 rviz2
 ```
 
@@ -57,6 +58,8 @@ source install/setup.bash
 ros2 run flying_robot_control hw_node
 
 ros2 run flying_robot_control attitude_controller_node
+
+ros2 run flying_robot_control estimator_node
 ```
 
 ## log
