@@ -6,12 +6,23 @@
 
 https://github.com/facontidavide/PlotJuggler
 
+install
 ```bash
 sudo snap install plotjuggler
+sudo apt install ros-humble-plotjuggler-ros
 ```
 
-# cmd
+run 
+```bash
+plotjuggler
 ```
+
+按照图中的顺序，把liner_acceleration + angular_velocity 波形拖动到右边就可以实时显示了。
+
+![plotjuggler](./docs/plotjuggler.jpg)
+
+# cmd
+```bash
 conda deactivate
 conda activate ros2
 colcon build
@@ -22,11 +33,25 @@ sudo rosdep init
 rosdep update
 rosdep install --from-paths src --ignore-src -r -y
 
-ros2 run my_test flying_hardware_node
+ros2 run my_test hw_node
 ros2 run imu_complementary_filter complementary_filter_node
 ros2 run my_test IMU_subscriber
 
-ros2 run flying_robot_control flying_hardware_node
-
 ros2 topic echo /imu/data
+
+rm -rf build install log
+```
+
+## run
+```bash
+source install/setup.bash
+
+ros2 run flying_robot_control hw_node
+
+ros2 run flying_robot_control attitude_controller_node
+```
+
+## log
+```bash
+export RCL_LOG_LEVEL=DEBUG
 ```
