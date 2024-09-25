@@ -41,9 +41,9 @@ class FlyingHardwareNode(Node):
             imu_msg.header.stamp = self.get_clock().now().to_msg()
             imu_msg.header.frame_id = 'imu_frame'
 
-            imu_msg.linear_acceleration.x = imu_data[0]
-            imu_msg.linear_acceleration.y = imu_data[1]
-            imu_msg.linear_acceleration.z = imu_data[2]
+            imu_msg.linear_acceleration.x = imu_data[0] * 9.8
+            imu_msg.linear_acceleration.y = imu_data[1] * 9.8
+            imu_msg.linear_acceleration.z = imu_data[2] * 9.8
 
             # 将角速度转换为弧度制
             imu_msg.angular_velocity.x = np.radians(imu_data[3])
